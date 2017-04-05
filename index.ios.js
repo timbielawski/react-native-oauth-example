@@ -15,7 +15,7 @@ import {
 import OAuthManager from 'react-native-oauth';
 
 
-const manager = new OAuthManager('AdBooker')
+const manager = new OAuthManager('OAuth')
 manager.configure({
   google: {
     callback_url: `put ios scheme here`,
